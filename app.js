@@ -6,6 +6,7 @@ const session = require("express-session");
 const passport = require("passport");
 var favicon = require("serve-favicon");
 var path = require("path");
+require("dotenv").config();
 
 const formatMessage = require("./utils/messages");
 const {
